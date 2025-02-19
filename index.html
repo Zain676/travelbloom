@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Home</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="logo">TravelBloom</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Discover Your Next Adventure</h1>
+      <p>Explore the world's most beautiful destinations with TravelBloom.</p>
+      <button class="cta-button">Book Now</button>
+    </div>
+  </header>
+
+  <section class="search">
+    <input type="text" id="searchInput" placeholder="Search for beaches, temples, or cities...">
+    <button onclick="searchRecommendations()">Search</button>
+  </section>
+
+  <section id="recommendations" class="recommendations-grid">
+    <!-- Recommendations will be dynamically added here -->
+  </section>
+
+  <footer>
+    <p>Follow us on social media:</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
