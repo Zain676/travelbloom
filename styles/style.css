@@ -75,7 +75,6 @@
     padding: 0.8rem 2rem;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease;
   }
   
   .cta-button:hover {
@@ -85,18 +84,18 @@
   .search {
     padding: 2rem;
     text-align: center;
-    background: #fff;
+    background: #ffffff;
   }
   
   .search input {
-    padding: 0.5rem;
-    width: 300px;
-    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 350px;
+    border: 1px solid #424242;
     border-radius: 5px;
   }
   
   .search button {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     background: #ff6f61;
     color: #fff;
     border: none;
@@ -218,7 +217,6 @@
     padding: 0.8rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
   }
   
   .contact button:hover {
