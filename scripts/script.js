@@ -1,16 +1,16 @@
 // Sample data for recommendations
 const recommendations = {
     beaches: [
-      { name: "Maldives", image: "assets/beach1.jpg", description: "Crystal-clear waters and white sandy beaches." },
-      { name: "Bora Bora", image: "assets/beach2.jpg", description: "A tropical paradise with overwater bungalows." }
+      { name: "Maldives", image: "beach1.jpg", description: "Crystal-clear waters and white sandy beaches." },
+      { name: "Bora Bora", image: "beach2.jpg", description: "A tropical paradise with overwater bungalows." }
     ],
     temples: [
-      { name: "Angkor Wat", image: "assets/temple1.jpeg", description: "A stunning ancient temple complex in Cambodia." },
-      { name: "Golden Temple", image: "assets/temple2.jpeg", description: "A sacred Sikh shrine in India." }
+      { name: "Angkor Wat", image: "temple1.jpeg", description: "A stunning ancient temple complex in Cambodia." },
+      { name: "Golden Temple", image: "temple2.jpeg", description: "A sacred Sikh shrine in India." }
     ],
     cities: [
-      { name: "Toronto", image: "assets/city1.jpg", description: "A vibrant city with diverse culture and attractions." },
-      { name: "Paris", image: "assets/city2.jpg", description: "The city of love and iconic landmarks." }
+      { name: "Toronto", image: "city1.jpg", description: "A vibrant city with diverse culture and attractions." },
+      { name: "Paris", image: "city2.jpg", description: "The city of love and iconic landmarks." }
     ]
   };
   
